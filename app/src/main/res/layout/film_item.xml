@@ -9,9 +9,9 @@
         android:id="@+id/film_image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
         />
     <TextView
         android:id="@+id/film_name_label"
